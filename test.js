@@ -88,3 +88,15 @@ it('should check if brackets sequence is correct 19', () => {
 it('should check if brackets sequence is correct 20', () => {
   assert.equal(check('([[[[(({{{}}}(([](((((((())))||||||))))[[{{|{{}}|}}[[[[]]]]{{{{{}}}}}]]))))]]]])((([[[[(({{{}}}(([](((((((())))||||||))))[[{{|{{}}|}}[[[[]]]]{{{{{}}}}}]]))))]]]])))', config7), true);
 });
+
+
+
+// This code tests the checkBrackets function with various input strings and configurations of brackets.
+// There are 20 test cases in total.
+
+// Each test case uses the assert.equal() method to check
+// if the output of checkBrackets() with the given input string and bracket configuration matches the expected result.
+// If the output matches the expected result, the test passes; otherwise, it fails.
+
+// The test cases cover a range of scenarios, including correct bracket sequences, incorrect bracket sequences,
+// different types of brackets, nested brackets, and multiple bracket configurations.
